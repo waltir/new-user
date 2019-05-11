@@ -1,0 +1,52 @@
+[{
+  "gender": "male",
+  "name": {
+    "title": "mr",
+    "first": "allen",
+    "last": "silva"
+  },
+  "location": {
+    "street": "2627 brick kiln road",
+    "city": "st albans",
+    "state": "dumfries and galloway",
+    "postcode": "KN7 0UB",
+    "coordinates": {
+      "latitude": "15.6986",
+      "longitude": "-20.4616"
+    },
+    "timezone": {
+      "offset": "-12:00",
+      "description": "Eniwetok, Kwajalein"
+    }
+  },
+  "email": "allen.silva@example.com",
+  "login": {
+    "uuid": "0d041c42-05f9-4f97-abcd-6f31b2796eb5",
+    "username": "smallsnake451",
+    "password": "photos",
+    "salt": "dw0K7LEz",
+    "md5": "b41264907dea8b90e103ab68816d6df9",
+    "sha1": "84ab0804858493595c505a8bf56febfe528b6cc7",
+    "sha256": "ff87eb2b81bb1223af2d9a42b8d99ca3d92a1550e1490011b385bb38dc686075"
+  },
+  "dob": {
+    "date": "1996-04-30T15:32:15Z",
+    "age": 23
+  },
+  "registered": {
+    "date": "2005-07-27T03:55:51Z",
+    "age": 13
+  },
+  "phone": "015394 57210",
+  "cell": "0727-792-663",
+  "id": {
+    "name": "NINO",
+    "value": "RS 58 77 96 Q"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/7.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/7.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/7.jpg"
+  },
+  "nat": "GB"
+}]
