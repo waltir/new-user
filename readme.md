@@ -40,10 +40,10 @@ nu.getUsers({nat: 'us,gb', pass: 'upper,18', gender: 'male', results: 3}, (data)
 
 ## params {Object} Documentation
 
-*`results` - num - The number of users to return
-*`genders` - string - The gender to return `'male', 'female'`
-*`nat` - string - The users nationality `US, AU, BR, CA, CH, DE, DK, ES, FI, FR, GB, IE, IR, NO, NL, NZ, TR`
-*`pass` - string - Specify password characteristics `length,special,upper,lower,number`
+* `results` - num - The number of users to return
+* `genders` - string - The gender to return `'male', 'female'`
+* `nat` - string - The users nationality `US, AU, BR, CA, CH, DE, DK, ES, FI, FR, GB, IE, IR, NO, NL, NZ, TR`
+* `pass` - string - Specify password characteristics `length,special,upper,lower,number`
 
 
 
