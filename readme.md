@@ -1,16 +1,14 @@
 # new-user 
-### A straight lforward and ightweight Node.js module for generating random user data.
-#### This module utilizes the [randomuser.me](http://randomuser.me) REST API.
+### A straightforward and lightweight Node.js module for generating random user data using the [randomuser.me](http://randomuser.me) REST API.
 
 
 
-#### Install using the node.js package manager npm:
+### Install using the node.js package manager npm:
 `$ npm install new-user`
 
 
 
-#### Examples
-Demos of the module are located in: [./test](test.js)
+#### Examples: Demos of the module are located in: [./test](test.js)
 
 
 
@@ -42,18 +40,19 @@ nu.getUsers({nat: 'us,gb', pass: 'upper,18', gender: 'male', results: 3}, (data)
 
 ## params {Object} Documentation
 
-`results` - num - The number of users to return
-`genders` - string - The gender to return `'male', 'female'`
-`nat` - string - The users nationality `US, AU, BR, CA, CH, DE, DK, ES, FI, FR, GB, IE, IR, NO, NL, NZ, TR`
-`pass` - string - Specify password characteristics `length,special,upper,lower,number`
+*`results` - num - The number of users to return
+*`genders` - string - The gender to return `'male', 'female'`
+*`nat` - string - The users nationality `US, AU, BR, CA, CH, DE, DK, ES, FI, FR, GB, IE, IR, NO, NL, NZ, TR`
+*`pass` - string - Specify password characteristics `length,special,upper,lower,number`
 
 
 
 ## Testing
-Clone the repo and run the `test.js` file using `$ npm test`
+Clone the repo and run the `test.js` file using `$ node test`
 
 ```
-$ git clone git://github.com/KevinTCoughlin/node-randomuser.git
-$ cd node-randomuser
+$ git clone git://github.com/waltir/new-user.git
+$ cd new-user
 $ npm install
+$ node test
 ```
