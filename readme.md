@@ -8,7 +8,9 @@
 
 
 
-#### Examples: Demos of the module are located in: [./test](test.js)
+## Examples: 
+* Demos of the module are located in: [./test](test.js)
+* Example JSON output is located in: [./output](output.json)
 
 
 
