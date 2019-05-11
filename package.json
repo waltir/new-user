@@ -1,5 +1,5 @@
 {
-  "name": "new-user",
+  "name": "new-users",
   "version": "1.0.0",
   "description": "Return a random new user",
   "main": "index.js",
@@ -7,9 +7,27 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "waltir",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "qs": "^6.7.0",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waltir/new-user.git"
+  },
+  "keywords": [
+    "random",
+    "user",
+    "generator",
+    "new",
+    "test",
+    "data",
+    "profile"
+  ],
+  "bugs": {
+    "url": "https://github.com/waltir/new-user/issues"
+  },
+  "homepage": "https://github.com/waltir/new-user#readme"
 }

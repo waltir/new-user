@@ -1,10 +1,10 @@
-# new-user 
+# new-users
 ### A straightforward and lightweight Node.js module for generating random user data using the [randomuser.me](http://randomuser.me) REST API.
 
 
 
 ### Install using the node.js package manager npm:
-`$ npm install new-user`
+`$ npm install new-users`
 
 
 
@@ -16,7 +16,7 @@
 
 # Usage
 ## Require Module and Initialize Client
-`var nu = require('new-user');`
+`var nu = require('new-users');`
 
 
 
@@ -53,8 +53,8 @@ nu.getUsers({nat: 'us,gb', pass: 'upper,18', gender: 'male', results: 3}, (data)
 Clone the repo and run the `test.js` file using `$ node test`
 
 ```
-$ git clone git://github.com/waltir/new-user.git
-$ cd new-user
+$ git clone git://github.com/waltir/new-users.git
+$ cd new-users
 $ npm install
 $ node test
 ```
